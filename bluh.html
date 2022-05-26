@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+        }
+        article{
+            color: black;
+            background-color: bisque;
+            place-self: center;
+            z-index: 1;
+            
+        }
+
+        div{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            opacity: 0;
+            padding: 0;
+            margin: 0;
+            z-index: -1;
+
+        }
+        #back1{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux1.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 0s infinite ;
+        
+        
+        }
+        #back2 {
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux2.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 10s infinite ;
+        
+        
+        } 
+        #back3{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux3.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 20s infinite ;
+        
+        
+        }
+        #back4{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux4.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 30s infinite ;
+        
+        
+        }
+        #back5{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux5.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 40s infinite ;
+        
+        
+        }
+        #back6{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux6.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 50s infinite ;
+        
+        
+        
+
+        }        
+        #back7{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux7.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 60s infinite ;
+        
+        
+        
+
+        }
+        #back8{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux8.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 70s infinite ;
+        
+        
+        
+
+        }
+        #back9{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux9.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 80s infinite ;
+        
+        
+        
+
+        }
+        #back10{
+            
+            padding: 0;
+            margin: 0;
+            background:url(pics/lux10.jpg) fixed no-repeat center center;
+            animation: backshow 100s linear 90s infinite ;
+        
+        
+        
+
+        }
+
+        
+
+        @keyframes backshow {
+            0%{
+                opacity: 0;
+            }
+            1%{
+                opacity: 78;
+                
+
+            }
+            
+            10%{
+                opacity: .78;
+                
+            }
+            11%{opacity: 0;
+            
+            }
+            100%{
+                opacity: 0;
+            }
+
+
+
+            
+        }
+
+
+
+
+
+    
+    </style>
+    
+    <script type="text/javascript" src="config.js"></script>
+    <script src="main.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="back1"></div>
+    <div id="back2"></div>
+    <div id="back3"></div>
+    <div id="back4"></div>
+    <div id="back5"></div>
+    <div id="back6"></div>
+    <div id="back7"></div>
+    <div id="back8"></div>
+    <div id="back9"></div>
+    <div id="back10"></div>
+    <article>
+    <input type="number" autofocus id="inp">
+    <button class="quack">convert</button>
+    <select name="select" class="br">  </select>
+    <p class="res"></p>
+</article>
+</body>
+</html>
